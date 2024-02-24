@@ -1,17 +1,9 @@
 from flask import Flask, request, jsonify
-from firebase_functions import https_fn
-
 from flask_cors import CORS
 from .jcz import transliterate
 
 import os
 
-
-app = Flask(__name__)
-CORS(app)
-
-
-# Rest of your Flask app code...
 
 app = Flask(__name__)
 CORS(app)
