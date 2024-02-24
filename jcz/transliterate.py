@@ -248,7 +248,7 @@ def get_hex_dict(file_loc, ng_tilde=False):
     return hex_dict
 
 
-hex_dict = get_hex_dict("./functions/jcz/mapping.txt", ng_tilde=True)
+hex_dict = get_hex_dict("./jcz/mapping.txt", ng_tilde=True)
 
 
 def replace_r(syllable):
